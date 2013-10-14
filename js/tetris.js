@@ -33,7 +33,7 @@ Tetris.init = function () {
 
     // create a WebGL renderer, camera
     // and a scene
-    Tetris.renderer = new THREE.WebGLRenderer();
+    Tetris.renderer = new THREE.AnaglyphWebGLRenderer();
     Tetris.camera = new THREE.PerspectiveCamera(VIEW_ANGLE,
         ASPECT,
         NEAR,
